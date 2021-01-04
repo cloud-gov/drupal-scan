@@ -12,4 +12,5 @@ Modify the default settings if needed. Invoke the script and direct output to a 
 
 ## Other sources of similar data
 
-* [Analysis of federal .gov domains](https://ben.balter.com/2021-analysis-of-federal-dotgov-domains/) 
+* [Analysis of federal .gov domains](https://ben.balter.com/2021-analysis-of-federal-dotgov-domains/) (external site)
+* #10x-site-scanning channel [in the TTS Slack](https://gsa-tts.slack.com/archives/CJ9JT2F2T/p1605210554253700) :lock:
