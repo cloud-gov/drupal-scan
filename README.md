@@ -1,6 +1,6 @@
 # Scanning for Drupal 
 
-A script to scan federal domains to identify sites running Drupal. This script uses data from [this GSA repository](https://github.com/GSA/data). The script makes a `curl` request to a website URL and looks for the `X-Generator` tag to identify Drupal sites. (Note - this is not a bulletproof way of identifying Drupal sites, but it's common for Drupal sites to use this response header.)
+A script to scan federal domains to identify sites running Drupal. This script uses data from [this GSA repository](https://github.com/GSA/data). The script makes a `curl` request to a website URL and looks for the `X-Generator` response header to identify Drupal sites. (Note - this is not a bulletproof way of identifying Drupal sites, but it's common for Drupal sites to use this response header.)
 
 ## Usage
 
