@@ -1,4 +1,4 @@
-##!/bin/bash
+#!/bin/bash
 
 # Default value for site geneator if none found by scan.
 default="Unknown"
@@ -14,7 +14,7 @@ connect_time=5
 if [ ! -f "$file" ]; then
     curl -s https://raw.githubusercontent.com/GSA/data/master/dotgov-domains/current-federal.csv \
     | grep "Federal Agency - Executive" \
-    > current-federal.csv
+    > $file
 fi
 
 # Get domains to curl.
